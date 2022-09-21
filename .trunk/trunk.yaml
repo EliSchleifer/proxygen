@@ -6,14 +6,14 @@ actions:
     - trunk-fmt-pre-commit
   enabled:
     - trunk-cache-prune
-    - trunk-upgrade-available
+    # - trunk-upgrade-available
 runtimes:
   enabled:
     - go@1.18.3
     - node@16.14.2
     - python@3.10.3
 cli:
-  version: 0.18.0-beta
+  version: 0.17.0-beta
 plugins:
   sources:
     - id: trunk

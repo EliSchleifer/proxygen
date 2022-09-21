@@ -1,1 +1,957 @@
-proxygen/_build/compile_commands.json
+[
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/external",
+  "command": "/bin/c++  -I/home/eli/Github/proxygen -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -DHTTP_PARSER_STRICT_URL=1 -Wno-implicit-fallthrough -std=c++17 -o CMakeFiles/proxygen_http_parser.dir/http_parser/http_parser_cpp.cpp.o -c /home/eli/Github/proxygen/proxygen/external/http_parser/http_parser_cpp.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/external/http_parser/http_parser_cpp.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/healthcheck/ServerHealthCheckerCallback.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/healthcheck/ServerHealthCheckerCallback.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/healthcheck/ServerHealthCheckerCallback.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/HTTP3ErrorCode.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/HTTP3ErrorCode.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/HTTP3ErrorCode.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/Window.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/Window.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/Window.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/CodecProtocol.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/CodecProtocol.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/CodecProtocol.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/CodecUtil.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/CodecUtil.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/CodecUtil.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/compress/HeaderIndexingStrategy.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/HeaderIndexingStrategy.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/HeaderIndexingStrategy.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/compress/HeaderTable.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/HeaderTable.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/HeaderTable.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/compress/HPACKCodec.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/HPACKCodec.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/HPACKCodec.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/compress/HPACKContext.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/HPACKContext.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/HPACKContext.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/compress/HPACKDecodeBuffer.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/HPACKDecodeBuffer.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/HPACKDecodeBuffer.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/compress/HPACKDecoderBase.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/HPACKDecoderBase.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/HPACKDecoderBase.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/compress/HPACKDecoder.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/HPACKDecoder.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/HPACKDecoder.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/compress/HPACKEncodeBuffer.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/HPACKEncodeBuffer.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/HPACKEncodeBuffer.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/compress/HPACKEncoderBase.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/HPACKEncoderBase.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/HPACKEncoderBase.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/compress/HPACKEncoder.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/HPACKEncoder.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/HPACKEncoder.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/compress/HPACKHeader.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/HPACKHeader.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/HPACKHeader.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/compress/Huffman.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/Huffman.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/Huffman.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/compress/Logging.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/Logging.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/Logging.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/compress/NoPathIndexingStrategy.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/NoPathIndexingStrategy.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/NoPathIndexingStrategy.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/compress/QPACKCodec.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/QPACKCodec.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/QPACKCodec.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/compress/QPACKContext.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/QPACKContext.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/QPACKContext.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/compress/QPACKDecoder.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/QPACKDecoder.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/QPACKDecoder.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/compress/QPACKEncoder.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/QPACKEncoder.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/QPACKEncoder.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/compress/QPACKHeaderTable.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/QPACKHeaderTable.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/QPACKHeaderTable.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/compress/QPACKStaticHeaderTable.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/QPACKStaticHeaderTable.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/QPACKStaticHeaderTable.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/compress/StaticHeaderTable.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/StaticHeaderTable.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/StaticHeaderTable.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/DefaultHTTPCodecFactory.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/DefaultHTTPCodecFactory.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/DefaultHTTPCodecFactory.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/ErrorCode.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/ErrorCode.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/ErrorCode.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/FlowControlFilter.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/FlowControlFilter.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/FlowControlFilter.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/HeaderDecodeInfo.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/HeaderDecodeInfo.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/HeaderDecodeInfo.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/HTTP1xCodec.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/HTTP1xCodec.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/HTTP1xCodec.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/HTTP2Codec.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/HTTP2Codec.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/HTTP2Codec.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/HTTP2Constants.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/HTTP2Constants.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/HTTP2Constants.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/HTTP2Framer.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/HTTP2Framer.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/HTTP2Framer.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/HTTPChecks.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/HTTPChecks.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/HTTPChecks.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/HTTPCodecFactory.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/HTTPCodecFactory.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/HTTPCodecFactory.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/HTTPCodecFilter.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/HTTPCodecFilter.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/HTTPCodecFilter.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/HTTPCodecPrinter.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/HTTPCodecPrinter.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/HTTPCodecPrinter.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/HTTPParallelCodec.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/HTTPParallelCodec.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/HTTPParallelCodec.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/HTTPSettings.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/HTTPSettings.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/HTTPSettings.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/codec/TransportDirection.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/TransportDirection.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/TransportDirection.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/connpool/ServerIdleSessionController.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/connpool/ServerIdleSessionController.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/connpool/ServerIdleSessionController.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/connpool/SessionHolder.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/connpool/SessionHolder.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/connpool/SessionHolder.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/connpool/SessionPool.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/connpool/SessionPool.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/connpool/SessionPool.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/connpool/ThreadIdleSessionController.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/connpool/ThreadIdleSessionController.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/connpool/ThreadIdleSessionController.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/experimental/RFC1867.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/experimental/RFC1867.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/experimental/RFC1867.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/HeaderConstants.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/HeaderConstants.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/HeaderConstants.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/HTTPConnector.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/HTTPConnector.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/HTTPConnector.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/HTTPConnectorWithFizz.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/HTTPConnectorWithFizz.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/HTTPConnectorWithFizz.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/HTTPConstants.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/HTTPConstants.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/HTTPConstants.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/HTTPException.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/HTTPException.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/HTTPException.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/HTTPHeaders.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/HTTPHeaders.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/HTTPHeaders.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/HTTPMessage.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/HTTPMessage.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/HTTPMessage.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/HTTPMessageFilters.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/HTTPMessageFilters.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/HTTPMessageFilters.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/HTTPMethod.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/HTTPMethod.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/HTTPMethod.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/HTTPPriorityFunctions.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/HTTPPriorityFunctions.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/HTTPPriorityFunctions.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/StatusTypeEnum.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/StatusTypeEnum.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/StatusTypeEnum.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/ProxygenErrorEnum.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/ProxygenErrorEnum.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/ProxygenErrorEnum.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/ProxyStatus.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/ProxyStatus.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/ProxyStatus.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/RFC2616.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/RFC2616.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/RFC2616.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/sink/HTTPTransactionSink.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/sink/HTTPTransactionSink.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/sink/HTTPTransactionSink.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/session/ByteEvents.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/session/ByteEvents.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/session/ByteEvents.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/session/ByteEventTracker.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/session/ByteEventTracker.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/session/ByteEventTracker.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/session/CodecErrorResponseHandler.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/session/CodecErrorResponseHandler.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/session/CodecErrorResponseHandler.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/session/HTTP2PriorityQueue.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/session/HTTP2PriorityQueue.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/session/HTTP2PriorityQueue.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/session/HTTPDefaultSessionCodecFactory.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/session/HTTPDefaultSessionCodecFactory.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/session/HTTPDefaultSessionCodecFactory.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/session/HTTPDirectResponseHandler.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/session/HTTPDirectResponseHandler.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/session/HTTPDirectResponseHandler.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/session/HTTPDownstreamSession.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/session/HTTPDownstreamSession.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/session/HTTPDownstreamSession.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/session/HTTPErrorPage.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/session/HTTPErrorPage.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/session/HTTPErrorPage.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/session/HTTPEvent.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/session/HTTPEvent.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/session/HTTPEvent.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/session/HTTPSessionAcceptor.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/session/HTTPSessionAcceptor.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/session/HTTPSessionAcceptor.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/session/HTTPSessionActivityTracker.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/session/HTTPSessionActivityTracker.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/session/HTTPSessionActivityTracker.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/session/HTTPSessionBase.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/session/HTTPSessionBase.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/session/HTTPSessionBase.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/session/HTTPSession.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/session/HTTPSession.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/session/HTTPSession.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/session/HTTPTransaction.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/session/HTTPTransaction.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/session/HTTPTransaction.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/session/HTTPTransactionEgressSM.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/session/HTTPTransactionEgressSM.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/session/HTTPTransactionEgressSM.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/session/HTTPTransactionIngressSM.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/session/HTTPTransactionIngressSM.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/session/HTTPTransactionIngressSM.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/session/HTTPUpstreamSession.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/session/HTTPUpstreamSession.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/session/HTTPUpstreamSession.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/session/SecondaryAuthManager.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/session/SecondaryAuthManager.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/session/SecondaryAuthManager.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/session/SimpleController.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/session/SimpleController.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/session/SimpleController.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/structuredheaders/StructuredHeadersBuffer.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/structuredheaders/StructuredHeadersBuffer.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/structuredheaders/StructuredHeadersBuffer.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/structuredheaders/StructuredHeadersDecoder.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/structuredheaders/StructuredHeadersDecoder.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/structuredheaders/StructuredHeadersDecoder.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/structuredheaders/StructuredHeadersEncoder.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/structuredheaders/StructuredHeadersEncoder.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/structuredheaders/StructuredHeadersEncoder.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/http/structuredheaders/StructuredHeadersUtilities.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/structuredheaders/StructuredHeadersUtilities.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/structuredheaders/StructuredHeadersUtilities.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/pools/generators/FileServerListGenerator.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/pools/generators/FileServerListGenerator.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/pools/generators/FileServerListGenerator.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/pools/generators/ServerListGenerator.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/pools/generators/ServerListGenerator.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/pools/generators/ServerListGenerator.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/sampling/Sampling.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/sampling/Sampling.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/sampling/Sampling.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/services/RequestWorkerThread.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/services/RequestWorkerThread.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/services/RequestWorkerThread.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/services/Service.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/services/Service.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/services/Service.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/services/WorkerThread.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/services/WorkerThread.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/services/WorkerThread.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/stats/ResourceStats.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/stats/ResourceStats.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/stats/ResourceStats.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/transport/PersistentFizzPskCache.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/transport/PersistentFizzPskCache.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/transport/PersistentFizzPskCache.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/utils/AsyncTimeoutSet.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/utils/AsyncTimeoutSet.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/utils/AsyncTimeoutSet.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/utils/Base64.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/utils/Base64.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/utils/Base64.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/utils/CryptUtil.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/utils/CryptUtil.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/utils/CryptUtil.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/utils/Exception.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/utils/Exception.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/utils/Exception.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/utils/HTTPTime.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/utils/HTTPTime.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/utils/HTTPTime.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/utils/Logging.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/utils/Logging.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/utils/Logging.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/utils/ParseURL.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/utils/ParseURL.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/utils/ParseURL.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/utils/RendezvousHash.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/utils/RendezvousHash.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/utils/RendezvousHash.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/utils/Time.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/utils/Time.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/utils/Time.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/utils/TraceEventContext.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/utils/TraceEventContext.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/utils/TraceEventContext.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/utils/TraceEvent.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/utils/TraceEvent.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/utils/TraceEvent.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/utils/WheelTimerInstance.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/utils/WheelTimerInstance.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/utils/WheelTimerInstance.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/utils/ZlibStreamCompressor.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/utils/ZlibStreamCompressor.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/utils/ZlibStreamCompressor.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/utils/ZlibStreamDecompressor.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/utils/ZlibStreamDecompressor.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/utils/ZlibStreamDecompressor.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/utils/ZstdStreamCompressor.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/utils/ZstdStreamCompressor.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/utils/ZstdStreamCompressor.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/utils/ZstdStreamDecompressor.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/utils/ZstdStreamDecompressor.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/utils/ZstdStreamDecompressor.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/__/__/generated/proxygen/lib/http/HTTPCommonHeaders.cpp.o -c /home/eli/Github/proxygen/proxygen/_build/generated/proxygen/lib/http/HTTPCommonHeaders.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/_build/generated/proxygen/lib/http/HTTPCommonHeaders.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/__/__/generated/proxygen/lib/utils/TraceEventType.cpp.o -c /home/eli/Github/proxygen/proxygen/_build/generated/proxygen/lib/utils/TraceEventType.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/_build/generated/proxygen/lib/utils/TraceEventType.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen.dir/__/__/generated/proxygen/lib/utils/TraceFieldType.cpp.o -c /home/eli/Github/proxygen/proxygen/_build/generated/proxygen/lib/utils/TraceFieldType.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/_build/generated/proxygen/lib/utils/TraceFieldType.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen/proxygen/lib/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/testtransport.dir/TestAsyncTransport.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/test/TestAsyncTransport.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/test/TestAsyncTransport.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/testmain.dir/TestMain.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/test/TestMain.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/test/TestMain.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DLibHTTPTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/http/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/LibHTTPTests.dir/HTTPCommonHeadersTests.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/test/HTTPCommonHeadersTests.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/test/HTTPCommonHeadersTests.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DLibHTTPTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/http/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/LibHTTPTests.dir/HTTPConnectorWithFizzTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/test/HTTPConnectorWithFizzTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/test/HTTPConnectorWithFizzTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DLibHTTPTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/http/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/LibHTTPTests.dir/HTTPMessageTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/test/HTTPMessageTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/test/HTTPMessageTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DLibHTTPTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/http/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/LibHTTPTests.dir/HTTPPriorityFunctionsTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/test/HTTPPriorityFunctionsTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/test/HTTPPriorityFunctionsTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DLibHTTPTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/http/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/LibHTTPTests.dir/ProxyStatusTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/test/ProxyStatusTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/test/ProxyStatusTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DLibHTTPTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/http/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/LibHTTPTests.dir/RFC2616Test.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/test/RFC2616Test.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/test/RFC2616Test.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DLibHTTPTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/http/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/LibHTTPTests.dir/WindowTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/test/WindowTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/test/WindowTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/structuredheaders/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DStructuredHeadersTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/http/structuredheaders/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/StructuredHeadersTests.dir/StructuredHeadersBufferTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/structuredheaders/test/StructuredHeadersBufferTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/structuredheaders/test/StructuredHeadersBufferTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/structuredheaders/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DStructuredHeadersTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/http/structuredheaders/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/StructuredHeadersTests.dir/StructuredHeadersDecoderTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/structuredheaders/test/StructuredHeadersDecoderTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/structuredheaders/test/StructuredHeadersDecoderTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/structuredheaders/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DStructuredHeadersTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/http/structuredheaders/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/StructuredHeadersTests.dir/StructuredHeadersEncoderTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/structuredheaders/test/StructuredHeadersEncoderTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/structuredheaders/test/StructuredHeadersEncoderTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/structuredheaders/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DStructuredHeadersTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/http/structuredheaders/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/StructuredHeadersTests.dir/StructuredHeadersStandardTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/structuredheaders/test/StructuredHeadersStandardTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/structuredheaders/test/StructuredHeadersStandardTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/structuredheaders/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DStructuredHeadersTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/http/structuredheaders/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/StructuredHeadersTests.dir/StructuredHeadersUtilitiesTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/structuredheaders/test/StructuredHeadersUtilitiesTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/structuredheaders/test/StructuredHeadersUtilitiesTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/codec/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen/proxygen/lib/http/codec/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/codectestutils.dir/TestUtils.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/test/TestUtils.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/test/TestUtils.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/codec/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DCodecTests_EXPORTS -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen/proxygen/lib/http/codec/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/CodecTests.dir/CodecUtilTests.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/test/CodecUtilTests.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/test/CodecUtilTests.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/codec/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DCodecTests_EXPORTS -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen/proxygen/lib/http/codec/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/CodecTests.dir/DefaultHTTPCodecFactoryTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/test/DefaultHTTPCodecFactoryTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/test/DefaultHTTPCodecFactoryTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/codec/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DCodecTests_EXPORTS -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen/proxygen/lib/http/codec/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/CodecTests.dir/FilterTests.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/test/FilterTests.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/test/FilterTests.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/codec/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DCodecTests_EXPORTS -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen/proxygen/lib/http/codec/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/CodecTests.dir/HTTP1xCodecTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/test/HTTP1xCodecTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/test/HTTP1xCodecTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/codec/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DCodecTests_EXPORTS -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen/proxygen/lib/http/codec/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/CodecTests.dir/HTTP2CodecTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/test/HTTP2CodecTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/test/HTTP2CodecTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/codec/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DCodecTests_EXPORTS -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen/proxygen/lib/http/codec/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/CodecTests.dir/HTTP2FramerTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/test/HTTP2FramerTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/test/HTTP2FramerTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/codec/compress/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/hpacktestutils.dir/TestUtil.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test/TestUtil.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test/TestUtil.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/codec/compress/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DHPACKTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/HPACKTests.dir/HeaderPieceTests.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test/HeaderPieceTests.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test/HeaderPieceTests.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/codec/compress/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DHPACKTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/HPACKTests.dir/HeaderTableTests.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test/HeaderTableTests.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test/HeaderTableTests.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/codec/compress/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DHPACKTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/HPACKTests.dir/HTTPArchive.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test/HTTPArchive.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test/HTTPArchive.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/codec/compress/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DHPACKTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/HPACKTests.dir/HPACKBufferTests.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test/HPACKBufferTests.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test/HPACKBufferTests.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/codec/compress/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DHPACKTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/HPACKTests.dir/HPACKCodecTests.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test/HPACKCodecTests.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test/HPACKCodecTests.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/codec/compress/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DHPACKTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/HPACKTests.dir/HPACKContextTests.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test/HPACKContextTests.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test/HPACKContextTests.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/codec/compress/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DHPACKTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/HPACKTests.dir/HPACKHeaderTests.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test/HPACKHeaderTests.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test/HPACKHeaderTests.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/codec/compress/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DHPACKTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/HPACKTests.dir/HuffmanTests.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test/HuffmanTests.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test/HuffmanTests.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/codec/compress/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DHPACKTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/HPACKTests.dir/LoggingTests.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test/LoggingTests.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test/LoggingTests.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/codec/compress/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DHPACKTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/HPACKTests.dir/QPACKCodecTests.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test/QPACKCodecTests.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test/QPACKCodecTests.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/codec/compress/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DHPACKTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/HPACKTests.dir/QPACKContextTests.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test/QPACKContextTests.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test/QPACKContextTests.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/codec/compress/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DHPACKTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/HPACKTests.dir/QPACKHeaderTableTests.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test/QPACKHeaderTableTests.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test/QPACKHeaderTableTests.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/codec/compress/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DHPACKTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/HPACKTests.dir/RFCExamplesTests.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test/RFCExamplesTests.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/codec/compress/test/RFCExamplesTests.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/session/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen/proxygen/lib/http/session/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/sessiontestutils.dir/TestUtils.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/session/test/TestUtils.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/session/test/TestUtils.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/session/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DSessionTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/http/session/test -I/home/eli/Github/proxygen/proxygen/lib/http/codec/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/SessionTests.dir/ByteEventTrackerTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/session/test/ByteEventTrackerTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/session/test/ByteEventTrackerTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/session/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DSessionTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/http/session/test -I/home/eli/Github/proxygen/proxygen/lib/http/codec/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/SessionTests.dir/DownstreamTransactionTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/session/test/DownstreamTransactionTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/session/test/DownstreamTransactionTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/session/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DSessionTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/http/session/test -I/home/eli/Github/proxygen/proxygen/lib/http/codec/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/SessionTests.dir/HTTPDownstreamSessionTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/session/test/HTTPDownstreamSessionTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/session/test/HTTPDownstreamSessionTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/session/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DSessionTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/http/session/test -I/home/eli/Github/proxygen/proxygen/lib/http/codec/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/SessionTests.dir/HTTPSessionAcceptorTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/session/test/HTTPSessionAcceptorTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/session/test/HTTPSessionAcceptorTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/session/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DSessionTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/http/session/test -I/home/eli/Github/proxygen/proxygen/lib/http/codec/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/SessionTests.dir/HTTPUpstreamSessionTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/session/test/HTTPUpstreamSessionTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/session/test/HTTPUpstreamSessionTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/session/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DSessionTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/http/session/test -I/home/eli/Github/proxygen/proxygen/lib/http/codec/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/SessionTests.dir/MockCodecDownstreamTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/session/test/MockCodecDownstreamTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/session/test/MockCodecDownstreamTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/session/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DSessionTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/http/session/test -I/home/eli/Github/proxygen/proxygen/lib/http/codec/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/SessionTests.dir/HTTP2PriorityQueueTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/session/test/HTTP2PriorityQueueTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/session/test/HTTP2PriorityQueueTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/session/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DSessionTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/http/session/test -I/home/eli/Github/proxygen/proxygen/lib/http/codec/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/SessionTests.dir/HTTPDefaultSessionCodecFactoryTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/session/test/HTTPDefaultSessionCodecFactoryTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/session/test/HTTPDefaultSessionCodecFactoryTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/http/session/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DSessionTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/http/session/test -I/home/eli/Github/proxygen/proxygen/lib/http/codec/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/SessionTests.dir/HTTPTransactionSMTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/http/session/test/HTTPTransactionSMTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/http/session/test/HTTPTransactionSMTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/sampling/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DSamplingTest_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/sampling/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/SamplingTest.dir/SamplingTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/sampling/test/SamplingTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/sampling/test/SamplingTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/services/test",
+  "command": "/bin/c++ -DAcceptorTest_EXPORTS -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen/proxygen/lib/services/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/AcceptorTest.dir/AcceptorTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/services/test/AcceptorTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/services/test/AcceptorTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/utils/test",
+  "command": "/bin/c++ -DAsyncTimeoutSetTest_EXPORTS -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen/proxygen/lib/utils/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/AsyncTimeoutSetTest.dir/AsyncTimeoutSetTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/utils/test/AsyncTimeoutSetTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/utils/test/AsyncTimeoutSetTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/utils/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DTraceEventTest_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/utils/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/TraceEventTest.dir/TraceEventTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/utils/test/TraceEventTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/utils/test/TraceEventTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/utils/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DUtilTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/utils/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/UtilTests.dir/Base64Test.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/utils/test/Base64Test.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/utils/test/Base64Test.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/utils/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DUtilTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/utils/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/UtilTests.dir/ConditionalGateTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/utils/test/ConditionalGateTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/utils/test/ConditionalGateTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/utils/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DUtilTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/utils/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/UtilTests.dir/CryptUtilTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/utils/test/CryptUtilTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/utils/test/CryptUtilTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/utils/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DUtilTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/utils/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/UtilTests.dir/GenericFilterTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/utils/test/GenericFilterTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/utils/test/GenericFilterTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/utils/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DUtilTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/utils/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/UtilTests.dir/HTTPTimeTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/utils/test/HTTPTimeTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/utils/test/HTTPTimeTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/utils/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DUtilTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/utils/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/UtilTests.dir/LoggingTests.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/utils/test/LoggingTests.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/utils/test/LoggingTests.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/utils/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DUtilTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/utils/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/UtilTests.dir/ParseURLTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/utils/test/ParseURLTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/utils/test/ParseURLTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/utils/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DUtilTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/utils/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/UtilTests.dir/PerfectIndexMapTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/utils/test/PerfectIndexMapTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/utils/test/PerfectIndexMapTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/utils/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DUtilTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/utils/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/UtilTests.dir/RendezvousHashTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/utils/test/RendezvousHashTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/utils/test/RendezvousHashTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/utils/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DUtilTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/utils/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/UtilTests.dir/TimeTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/utils/test/TimeTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/utils/test/TimeTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/utils/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DUtilTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/utils/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/UtilTests.dir/UtilTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/utils/test/UtilTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/utils/test/UtilTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/utils/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DUtilTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/utils/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/UtilTests.dir/WeakRefCountedPtrTest.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/utils/test/WeakRefCountedPtrTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/utils/test/WeakRefCountedPtrTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/lib/utils/test",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DUtilTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/lib/utils/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/UtilTests.dir/ZlibTests.cpp.o -c /home/eli/Github/proxygen/proxygen/lib/utils/test/ZlibTests.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/lib/utils/test/ZlibTests.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/httpserver",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygenhttpserver.dir/RequestHandlerAdaptor.cpp.o -c /home/eli/Github/proxygen/proxygen/httpserver/RequestHandlerAdaptor.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/httpserver/RequestHandlerAdaptor.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/httpserver",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygenhttpserver.dir/SignalHandler.cpp.o -c /home/eli/Github/proxygen/proxygen/httpserver/SignalHandler.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/httpserver/SignalHandler.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/httpserver",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygenhttpserver.dir/HTTPServerAcceptor.cpp.o -c /home/eli/Github/proxygen/proxygen/httpserver/HTTPServerAcceptor.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/httpserver/HTTPServerAcceptor.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/httpserver",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygenhttpserver.dir/HTTPServer.cpp.o -c /home/eli/Github/proxygen/proxygen/httpserver/HTTPServer.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/httpserver/HTTPServer.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/httpserver",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen_push.dir/samples/push/PushServer.cpp.o -c /home/eli/Github/proxygen/proxygen/httpserver/samples/push/PushServer.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/httpserver/samples/push/PushServer.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/httpserver",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen_push.dir/samples/push/PushRequestHandler.cpp.o -c /home/eli/Github/proxygen/proxygen/httpserver/samples/push/PushRequestHandler.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/httpserver/samples/push/PushRequestHandler.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/httpserver",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen_proxy.dir/samples/proxy/ProxyServer.cpp.o -c /home/eli/Github/proxygen/proxygen/httpserver/samples/proxy/ProxyServer.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/httpserver/samples/proxy/ProxyServer.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/httpserver",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen_proxy.dir/samples/proxy/ProxyHandler.cpp.o -c /home/eli/Github/proxygen/proxygen/httpserver/samples/proxy/ProxyHandler.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/httpserver/samples/proxy/ProxyHandler.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/httpserver",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen_static.dir/samples/static/StaticServer.cpp.o -c /home/eli/Github/proxygen/proxygen/httpserver/samples/static/StaticServer.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/httpserver/samples/static/StaticServer.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/httpserver",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen_static.dir/samples/static/StaticHandler.cpp.o -c /home/eli/Github/proxygen/proxygen/httpserver/samples/static/StaticHandler.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/httpserver/samples/static/StaticHandler.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/httpserver",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen_echo.dir/samples/echo/EchoServer.cpp.o -c /home/eli/Github/proxygen/proxygen/httpserver/samples/echo/EchoServer.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/httpserver/samples/echo/EchoServer.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/httpserver",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen_echo.dir/samples/echo/EchoHandler.cpp.o -c /home/eli/Github/proxygen/proxygen/httpserver/samples/echo/EchoHandler.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/httpserver/samples/echo/EchoHandler.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/httpserver/tests",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DHTTPServerTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/httpserver/tests -I/home/eli/Github/proxygen/proxygen/lib/http/codec/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/httpclient/samples/curl -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/HTTPServerTests.dir/HTTPServerTest.cpp.o -c /home/eli/Github/proxygen/proxygen/httpserver/tests/HTTPServerTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/httpserver/tests/HTTPServerTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/httpserver/tests",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DHTTPServerTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/httpserver/tests -I/home/eli/Github/proxygen/proxygen/lib/http/codec/test -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/httpclient/samples/curl -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/HTTPServerTests.dir/RequestHandlerAdaptorTest.cpp.o -c /home/eli/Github/proxygen/proxygen/httpserver/tests/RequestHandlerAdaptorTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/httpserver/tests/RequestHandlerAdaptorTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/httpserver/filters/tests",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -DHTTPServerFilterTests_EXPORTS -I/home/eli/Github/proxygen/proxygen/httpserver/filters/tests -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -I/home/eli/Github/proxygen/proxygen/lib/test -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/HTTPServerFilterTests.dir/CompressionFilterTest.cpp.o -c /home/eli/Github/proxygen/proxygen/httpserver/filters/tests/CompressionFilterTest.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/httpserver/filters/tests/CompressionFilterTest.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/httpclient/samples/curl",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen/proxygen/httpclient/samples/curl -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygencurl.dir/CurlClient.cpp.o -c /home/eli/Github/proxygen/proxygen/httpclient/samples/curl/CurlClient.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/httpclient/samples/curl/CurlClient.cpp"
+},
+{
+  "directory": "/home/eli/Github/proxygen/proxygen/_build/proxygen/httpclient/samples/curl",
+  "command": "/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CONTEXT_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/home/eli/Github/proxygen/proxygen/httpclient/samples/curl -I/home/eli/Github/proxygen -I/home/eli/Github/proxygen/proxygen/_build/generated -isystem /home/eli/Github/proxygen/proxygen/_build/deps/include -isystem /usr/include/libiberty -O2 -g -DNDEBUG -Wall -Wextra -Wno-noexcept-type -Wno-unused-parameter -Wno-missing-field-initializers -Wno-register -Wno-unused-value -std=c++17 -o CMakeFiles/proxygen_curl.dir/CurlClientMain.cpp.o -c /home/eli/Github/proxygen/proxygen/httpclient/samples/curl/CurlClientMain.cpp",
+  "file": "/home/eli/Github/proxygen/proxygen/httpclient/samples/curl/CurlClientMain.cpp"
+}
+]
